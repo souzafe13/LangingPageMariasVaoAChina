@@ -34,6 +34,11 @@ nav{
   justify-content: right; 
 }
 
+figure{
+  position: relative;
+  display: inline-block;
+}
+
 main{
   display: flex;
   flex-direction: column;
@@ -83,6 +88,26 @@ li a:hover:not(.ativa) {
   font-weight: 600;
 }
 
+/* .container-imagens{
+  display:inline-block;
+  position: relativo;
+}
+
+.container-imagens h2 {
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  font-size: 20px;
+  color: white;
+}
+.container-imagens p {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+} */
 
 @media screen and (max-width: 500px){
   
