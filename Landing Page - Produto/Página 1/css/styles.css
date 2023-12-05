@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Shippori+Mincho+B1:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+  color: black;
+}
+
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav{
+  max-width: 1120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo{
+  display:flex; 
+  flex-direction: row; 
+  height: 60px; 
+  text-align: right;
+  justify-content: right; 
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+mark{
+  background-color: #FA4716;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid #FA4716;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+li a:hover {
+  background-color: #FA4716;
+}
+
+li a:hover:not(.ativa) {
+  background-color: #FA4716;
+}
+
+
+.ativa {
+  background-color: #FA4716;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 500px){
+  
+}
+.footer{
+  font-size: 5px;
+  border-top: 2px solid #FA4716;
+  text-align: center;
+}
+.imagem-footer{
+  text-align: center;
+}
+

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Shippori+Mincho+B1:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+
+/* Header */
+.header{
+    color: black;
+    font-family: sans-serif;
+    animation-duration: 2.5s;
+    animation-name: title;
+    text-align: center;
+    font-size: 25px;
+}
+
+@keyframes title{
+
+from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* Imagens */
+.imagens{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border: 1px;
+  justify-content: center;
+  
+}
+
+.fone1, .fone2, .fone3, .fone4, .fone5, .fone6, .fone7, .fone8, .fone9{
+  height: 490px;
+  width: 490px;
+  display: flex;
+  border: 1px solid black;
+}
+
+/* Mark */
+mark{
+    background-color: #FA4716;
+}
+
+/* Logo */
+.logo{
+  display: flex;
+  height: 100px;
+  text-align: center;
+}
+
+.menu-superior{
+  display: inline-flex;
+  position: relative;
+}
+
+.texto-mark{
+  display: flex;  
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* Footer */
+.footer{
+  font-size: 10px;
+  border-top: 2px solid #FA4716;
+}
+
+/* Vídeo */
+.video{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid #FA4716;
+}
+.logo{
+  display:flex; 
+  flex-direction: row; 
+  height: 60px; 
+  text-align: right;
+  justify-content: right; 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+li a:hover {
+  background-color: #FA4716;
+}
+
+li a:hover:not(.ativa) {
+  background-color: #FA4716;
+}
+
+.ativa {
+  background-color: #FA4716;
+  font-weight: 600;
+}
+
+.footer{
+  font-size: 5px;
+  border-top: 2px solid #FA4716;
+  text-align: center;
+}
+.imagem-footer{
+  text-align: center;
+}
