@@ -81,31 +81,31 @@ li a:hover:not(.ativa) {
   position: absolute;
   top: 240px;
   right: 110px;
-  font-size: 20px;
+  font-size: 50px;
   color: white;
   }
 
 .container-imagens p {
   position: absolute;
-  top: 308px;
-  right: 56px;
-  font-size: 14px;
+  top: 350px;
+  right: 40px;
+  font-size: 30px;
   color: white;
   text-align: center;
  } 
 
  .container-imagens article{
   position: absolute;
-  top: 400px;
-  right: 66px;
-  font-size: 12px;
+  top: 480px;
+  right: 130px;
+  font-size: 20px;
   text-decoration: underline white;
  }
  .container-imagens span{
   position: absolute;
-  top: 730px;
-  right: 56px;
-  font-size: 14px;
+  top: 600px;
+  right: 150px;
+  font-size: 20px;
   text-align: center;
  }
 

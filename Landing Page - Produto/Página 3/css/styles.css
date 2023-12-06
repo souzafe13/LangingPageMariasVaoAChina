@@ -66,8 +66,8 @@ li a:hover:not(.ativa) {
     font-family: Inter, sans-serif;
     font-weight: 500;
     color: black;
-    margin-left: 32%;
-    margin-top: 17%;
+    margin-top: 7%;
+    justify-content: center;
 }
  
 #subtitulo{
@@ -75,7 +75,7 @@ li a:hover:not(.ativa) {
     font-family: Inter, sans-serif;
     font-weight: 500;
     color: black;
-    margin-left: 38%;
+  justify-content: center;
     margin-top: 2%;
 }
  
@@ -88,9 +88,8 @@ form{
     font-family: sans-serif;
     font-size: 1em;
     color: black;
-    margin-left: 40%;
     margin-top: 2%;
-    justify-content: center;
+    text-align: center;
 }
  
 input, textarea, label{

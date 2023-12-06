@@ -133,35 +133,19 @@ li a:hover:not(.ativa) {
 
 /* Descrição */
 .descricao{
-  display: flex;
   background-color: black;
   color: white;
   text-align: justify;
   font-size: 14px;
   margin-bottom: 2px;
-  padding: 8px 24px
+  padding: 8px 60px;
+  line-height: 1.5;
  }
 
  .descricao span{
   color: #FA4716;
   padding: 2px;
  }
-
- /* Especificação
- .especificacao{
-  display: flex;
-  background-color: black;
-  color: white;
-  text-align: justify;
-  font-size: 14px;
-  margin-bottom: 2px;
-  padding:8px 60px;
- }
-
- .especificacao span{
-  color: #FA4716;
-  padding: 2px;
- } */
 
  /* Footer */
 .footer{
