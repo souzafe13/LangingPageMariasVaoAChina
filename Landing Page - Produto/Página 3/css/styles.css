@@ -26,8 +26,6 @@ ul {
     width: 100%;
     border-bottom: 2px solid #FA4716;
 }
-
-
   
 li {
     float: left;
@@ -63,21 +61,21 @@ li a:hover:not(.ativa) {
     font-weight: 600;
 }
 
-
 #titulo{
-    
+    display: flex;
     font-family: Inter, sans-serif;
     font-weight: 500;
     color: black;
-    margin-left: 34%;
-    margin-top: 2%;
+    margin-left: 32%;
+    margin-top: 17%;
 }
  
 #subtitulo{
+    display: flex;
     font-family: Inter, sans-serif;
     font-weight: 500;
     color: black;
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top: 2%;
 }
  
@@ -97,6 +95,7 @@ form{
  
 input, textarea, label{
     border-radius: 5px;
+    text-align: center;
 }
 
 .footer{
@@ -104,6 +103,7 @@ input, textarea, label{
     border-top: 2px solid #FA4716;
     text-align: center;
   }
+
   .imagem-footer{
     text-align: center;
   }
